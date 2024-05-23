@@ -21,10 +21,4 @@ app
     console.error("Error:", err.message);
   });
 
-  // Déclaration des routes
 
-const sayHello = (req, res) => {
-  res.send("WELCOME TO WILD SERIES");
-};
-
-app.get("/", sayHello);
